@@ -1,0 +1,33 @@
+.searchPage__header img {
+    width: 100px; 
+    height: 42px; /* Let the height adjust proportionally */
+}
+*{
+    font-style: arial,sans-serif;
+}
+.border-999px {
+  border-radius: 999px;
+}
+.hover:hover {
+  background-color: #f8f9fa; /* Set your desired background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Set your desired box shadow */
+}
+.searchPage__resultLink img{
+  max-width: 35px;
+  margin-right: 6px;
+  max-height: 25px;
+  border-radius: 999px;
+}
+
+@media (min-width: 992px){
+    .searchPage_middleOptions{
+    margin-left: 8rem!important;}
+    .searchPage__result{
+      width: 652px;
+      padding-top: 20px;
+    }
+    
+}
+p{
+  margin: 0px;
+}
